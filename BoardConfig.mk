@@ -63,5 +63,3 @@ BOARD_HAVE_BLUETOOTH_BCM := false
 # Recovery
 TARGET_RECOVERY_FSTAB := device/micromax/a116/rootdir/fstab.mt6589
 RECOVERY_FSTAB_VERSION := 2
-RECOVERY_FSTAB_VERSION := 2
-
