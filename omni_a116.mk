@@ -30,7 +30,7 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := omni_a116
-PRODUCT_DEVICE := Canvas HD
+PRODUCT_DEVICE := a116
 PRODUCT_BRAND := Micromax
 PRODUCT_MODEL := A116
 PRODUCT_MANUFACTURER := Micromax
