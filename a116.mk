@@ -132,6 +132,13 @@ PRODUCT_PROPERTY_OVERRIDES := \
     wifi.direct.interface=p2p0 \
     wifi.interface=wlan0 \
     wifi.tethering.interface=ap0
+
+## Enable USB mass storage (and adb) at boot.
+ADDITIONAL_DEFAULT_PROPERTIES := \
+    persist.sys.usb.config=mtp,adb \
+    persist.service.adb.enable=1 \
+    ro.secure=0 \
+    ro.adb.secure=0
 	
 PRODUCT_TAGS += dalvik.gc.type-precise
 
