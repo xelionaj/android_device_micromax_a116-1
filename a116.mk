@@ -64,7 +64,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.usb.accessory.xml:system/etc/permissions/android.hardware.usb.accessory.xml
 
 PRODUCT_COPY_FILES += \
-	device/micromax/a116/media_codecs.xml:system/etc/media_codecs.xml
+	device/micromax/a116/config/media_codecs.xml:system/etc/media_codecs.xml
 	
 # prebuilt kernel modules
 PRODUCT_COPY_FILES += \
